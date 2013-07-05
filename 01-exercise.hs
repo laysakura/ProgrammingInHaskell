@@ -7,8 +7,8 @@ times4 n = 4 * n
 
 
 -- ex.3
-myproduct [] = 1
-myproduct (n:ns) = n * myproduct(ns)
+product' [] = 1
+product' (n:ns) = n * product'(ns)
 
 
 -- ex.4

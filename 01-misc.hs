@@ -1,5 +1,5 @@
-mysum [] = 0
-mysum (x:xs) = x + mysum(xs)
+sum' [] = 0
+sum' (x:xs) = x + sum'(xs)
 
 
 qsort [] = []
